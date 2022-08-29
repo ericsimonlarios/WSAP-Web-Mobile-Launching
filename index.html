@@ -7,7 +7,11 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>WSAP Mobile App</title>
 </head>
 <body>
     <div class="container">
@@ -16,7 +20,6 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -47,5 +50,188 @@
             </div>
           </nav>
     </div>
+
+  
+
+    <div >
+      <div >
+        <h1 class="display-5 mb-5 text-center">
+            Welcome to WSAP<span class="app-title"> Mobile App</span>
+        </h1>
+        <div class = "w3-center">
+            <img src= "images/showcase/try1.jpg">
+        </div>
+    
+                    <div class="w3-card ">
+                        <div class="w3-content w-100">
+                            <img class=" mySlides w3-animate-fading" src="images/showcase/try1.jpg"  style="width: 100%; display: none;">
+                            <img class="mySlides w3-animate-fading" src="images/showcase/try2.jpg" style="width: 100%; display: none;">
+                            <img class="mySlides w3-animate-fading" src="images/showcase/try3.jpg" style="width: 100%; display: none;">
+        
+
+                            <div class="w3-row-padding w3-section">
+                                <div class="w3-col s4">
+                                    <img class="demo w3-opacity w3-hover-opacity-off" src="images/showcase/try1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+                                </div>
+                                <div class="w3-col s4">
+                                    <img class="demo w3-opacity w3-hover-opacity-off" src="images/showcase/try2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+                                </div>
+                                <div class="w3-col s4">
+                                    <img class="demo w3-opacity w3-hover-opacity-off" src="images/showcase/try3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+       
+            <div class="col-md-6">
+                <div class="w3-card w3-padding-large">
+                    <h2>Download the App</h2>
+                    <div class="ml-3">
+                        <div class="w3-cell w3-cell-middle">
+                            <img src="imgs/android_logo.png" style="height: 32px;">
+                        </div>
+                        <div class="w3-cell">
+                            <h4><b>Android</b>
+                                <small class="ml-1 color-initial">
+                                    <i> App version: 0.41 as of December 28, 2021</i>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                    <ul class="w3-ul">
+                        <li class="w3-container d-flex align-items-center">Direct:
+                            <a href="file/iBooking v0.41.apk" class="w3-btn btn w3-theme w3-ripple w3-round-xxlarge ml-auto d-flex align-items-center"><i class="material-icons mr-1">download</i>Download</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-card w3-padding-large">
+                    <h4><b>Other way to update or reinstall the application incase of error</b></h4>
+                    <ol>
+                        <li>Uninstall the existing or current version of the application.</li>
+                        <li>Install now the newly downloaded Android Package(APK) to your phone.</li>
+                    </ol>
+                </div>
+
+                <div class="w3-card w3-padding-large">
+                    <h4><b>When the application keeps closing after reinstallation</b></h4>
+                    <ol>
+                        <li>Clear the data of the app in App Manager.</li>
+                    </ol>
+                </div>
+
+                <div class="w3-card w3-padding-large">
+                    <h4><b>Features</b></h4>
+                    <ul>
+                        <li> Optimization</li>
+                        <li> App Ratings</li>
+                    </ul>
+
+                    <h6 class="mt-1">
+                        <b>Version History</b>
+                        <span class="ml-1 color-initial"> (Pre-Release)</span>
+                    </h6>
+
+                    <div class="ml-3 mt-4">
+                        <i>v0.4: <span class="color-initial small">December 06, 2021</span></i>
+                        <ul class="mt-1">
+                            <li> Income Data Added</li>
+                        </ul>
+
+                        <i>v0.31: <span class="color-initial small">November 06, 2021</span></i>
+                        <ul class="mt-1">
+                            <li> Chat List Added</li>
+                            <li> Online Payment Added</li>
+                            <li> iWallet(Digital Wallet) Added</li>
+                            <li> Driver Rating System Added</li>
+                        </ul>
+
+                        <i>v0.3: <span class="color-initial small">October 30, 2021</span></i>
+                        <ul class="mt-1">
+                            <li> Notification Added</li>
+                            <li> Comment System Added</li>
+                            <li> Application Status Alert Added</li>
+                            <li> Application Update Alert Added</li>
+                            <li> Update Notes Added</li>
+                            <li> Profile Image Added</li>
+                            <li> Booking Alert Dialog Added</li>
+                            <li> Help Section Added</li>
+                            <li> Preference Section Added</li>
+                            <li> On The Spot(Single Spot) Service Added</li>
+                            <li> Driver's Module Added</li>
+
+                            <ul>
+                                <li> Task System Added</li>
+                                <li> Task Request Function Added</li>
+                                <li> Booking Chat Added</li>
+                                <li> Chat Notification Added</li>
+                            </ul>
+
+                            <li> Booking Record's QR Code Added</li>
+                        </ul>
+
+                        <i>v0.2: <span class="color-initial small">October 15, 2021</span></i>
+                        <ul class="mt-1">
+                            <li> Booking System Added</li>
+                            <li> User Profile Added</li>
+                        </ul>
+
+                        <i>v0.1: <span class="color-initial small">October 07, 2021</span></i>
+                        <ul class="mt-1">
+                            <li> Account Feature Added</li>
+                            <li> Like System Added</li>
+                            <li> Interactive Map Added</li>
+                            <li> Street View Added</li>
+                        </ul>
+
+                        <i>v0.0: <span class="color-initial small">September 25, 2021</span></i>
+                        <ul class="mt-1">
+                            <li> Application Created</li>
+                            <li> Tourist Spots Added</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
+<script>
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-opacity-off";
+    }
+
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) { slideIndex = 1 }
+        x[slideIndex - 1].style.display = "block";
+        setTimeout(carousel, 10000);
+    }
+</script>
+
 </html>
