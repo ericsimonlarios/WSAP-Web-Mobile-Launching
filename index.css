@@ -105,3 +105,39 @@ h6 {
 .w3-hover-border-theme-l2:hover {
   border-color: #41b0ff !important;
 }
+.primary-color{
+    /* color: #ffde59; */
+    background-color:#CC9933;
+}
+.img-fluid{
+    height: 50px;
+    width: 50px;
+}
+.navHover::after{
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 #ffde59;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0; 
+}
+.navHover:hover::after{
+    width: 100%;
+}
+.navButton{
+  padding: 8px;
+  background: #F00;
+  display: inline-block;
+  background: linear-gradient(to right, #ffde59 0%, #ffde59d8 50%, #ffffff 50%, #ffffff 100%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.3s;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navButton:hover{
+  background-position:0 0;
+  text-decoration: none;
+}
