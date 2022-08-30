@@ -78,49 +78,40 @@
                 <div class="container fullHeight">
                     <img src="res/home-cp-spec.png" class="img-fluid img mx-auto" alt="">
                 </div>
-
             </div>
-                <div class= "d-flex container" id = "gallery">
-                    <div class="container">
-                        <!-- Full-width images with number text -->
-                        <div class="mySlides mx-auto">
-                            <img src="images/showcase/Home.png" style="width:100%;">
+                <div class= "container mx-auto" id = "gallery">
+                        <div class="mySlides fade mx-auto">
+                            <img src="images/gallery/Home.png" style="width:100%;">
                         </div>
-                        <div class="mySlides mx-auto">
-                            <img src="images/showcase/Expos.png" style="width:100%">
+                        <div class="mySlides fade mx-auto">
+                            <img src="images/gallery/Expos.png" style="width:100%">
                         </div>
-                        <div class="mySlides mx-auto">
-                            <img src="images/showcase/Suppliers.png" style="width:100%">
+                        <div class="mySlides fade mx-auto">
+                            <img src="images/gallery/Suppliers.png" style="width:100%">
                         </div>
-                        <div class="mySlides mx-auto">
-                              <img src="images/showcase/Planner.png" style="width:100%">
+                        <div class="mySlides fade mx-auto">
+                              <img src="images/gallery/Planner.png" style="width:100%">
                           </div>
-                          <div class="mySlides mx-auto">
-                              <img src="images/showcase/More.png" style="width:100%">
+                          <div class="mySlides fade mx-auto">
+                              <img src="images/gallery/More.png" style="width:100%">
                           </div>
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        <!-- Thumbnail images -->
-                         <div class="row justify-content-center" >
+                         <div class="row justify-content-center">
                             <div class="column">
-                                <img class="demo cursor" src="images/showcase/Home.png" style="width:100%" onclick="currentSlide(1)">
+                                <img class="demo cursor" src="images/gallery/Home.png" style="width:100%" onclick="currentSlide(1)">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="images/showcase/Expos.png" style="width:100%" onclick="currentSlide(2)">
+                                <img class="demo cursor" src="images/gallery/Expos.png" style="width:100%" onclick="currentSlide(2)">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="images/showcase/Suppliers.png" style="width:100%" onclick="currentSlide(3)">
+                                <img class="demo cursor" src="images/gallery/Suppliers.png" style="width:100%" onclick="currentSlide(3)">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="images/showcase/Planner.png" style="width:100%" onclick="currentSlide(4)">
+                                <img class="demo cursor" src="images/gallery/Planner.png" style="width:100%" onclick="currentSlide(4)">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="images/showcase/More.png" style="width:100%" onclick="currentSlide(5)">
+                                <img class="demo cursor" src="images/gallery/More.png" style="width:100%" onclick="currentSlide(5)">
                             </div>
-                         
                         </div>
-                      </div>
                 </div>
 
                 <div class= "d-flex justify-content-center" id = "features">
@@ -169,26 +160,56 @@
                     
                     </div>
                 </div>
-                <div class="w3-center" id = "AboutUs">
-                    <div class="card m-5">
-                        <h4><b>About Us</b></h4>
+                <div class="container-fluid" id = "AboutUs">
+                    <div class="card mx-auto">
+                        <h4 class="mx-auto"><b>About us</b></h4>
                         <div class ="row">
-                            <div class="col card m-4" style="width: 30rem;">
-                                <div class="card-body">
-                                <h5  class = "w3-left-align">Powered By</h5>
+                            <div class = "col-md-6">
+                                <div class="w3-card w3-padding-large m-3">
+                                        <h5  class = "fw-bold">Powered By:</h5>
+                                        <div class="mt-3">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <img src="res/androidStudio_logo.png" class="mr-3" style="width: 50px;">
+                                                    <span>Android Studio</span>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <img src="res/firebase_logo.png" class="mr-3" style="width: 50px;">
+                                                    <span>Google Firebase</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                 </div>
                             </div>
-                            <div class="col card m-4" style="width: 30rem;">
-                                <div class="card-body">
-                                <h5 class = "w3-left-align">Developers</h5>
+                            <div class = "col-md-6">
+                                <div class="w3-card w3-padding-large m-3">
+                                        <h5 class = "fw-bold">Developers:</h5>
+                                        <div class="mt-3">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <h5>WSAP Mobile Development Team</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
                                 </div>
-                            </div>
+                         </div>
                         </div>
                     </div>
                 </div>
-                <div class="w3-center" id = "ContactUs">
+                <div class="" id = "ContactUs">
                     <div class="card m-5">
-                        <h4><b>Check out our other brands!</b></h4>
+                        <h4 class="mx-auto"><b>Check out our other applications!</b></h4>
+                        <div class="row m-md-auto"  > 
+                            <div class="col-md-auto card m-2" style="width: 22rem;">
+                                <img src="res/ic_wsap.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                <h5 class="card-title">WSAP Mobible App</h5>
+                                <ul class="card-text">
+                                    <li>Create your own wedding experience with the WSAP mobile app</li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
         </div>
@@ -196,35 +217,54 @@
 </body>
 
 <script>
-    let slideIndex = 1;
-showSlides(slideIndex);
+//     let slideIndex = 1;
+// showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+// // Next/previous controls
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+// // Thumbnail image controls
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+// function showSlides(n) {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides");
+//   let dots = document.getElementsByClassName("demo");
+//   let captionText = document.getElementById("caption");
+//   if (n > slides.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+//   captionText.innerHTML = dots[slideIndex-1].alt;
+// }
 
-function showSlides(n) {
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none";  
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
 </html>
