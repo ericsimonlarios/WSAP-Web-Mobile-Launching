@@ -84,15 +84,19 @@ h6 {
   width: fit-content;
 }
 
-
 /*CSS for Gallery*/
 .container {
   position: relative;
 }
 
+
 .mySlides {
   display: none;
+  max-width: 55vw;
+  max-height: auto;
+  box-shadow: 0 1rem 3rem rgba(black, .175);
 }
+
 
 .cursor {
   cursor: pointer;
@@ -104,6 +108,7 @@ h6 {
   position: absolute;
   top: 40%;
   width: auto;
+  margin-left: 11rem;
   padding: 16px;
   margin-top: -50px;
   color:#ffde59;
@@ -117,7 +122,7 @@ h6 {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  margin-right: 10px;
+  margin-right: 12rem;
 }
 
 .prev:hover,
@@ -133,7 +138,7 @@ h6 {
 
 .column {
   float: left;
-  width: 16.66%;
+  width: 14%;
 }
 
 .demo {
@@ -143,10 +148,6 @@ h6 {
 .demo:hover {
   opacity: 1;
 }
-.mySlides{
-  box-shadow: 0 1rem 3rem rgba(black, .175);
-}
-
 
 /*CSS for Cards*/
 .card-title{
