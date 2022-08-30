@@ -49,11 +49,10 @@ h6 {
   border-color: white;
 }
 .home{
-  background-image: linear-gradient(to top, #f9e388, #fae280, #fbe177, #fce06f, #fddf66, #fede60, #fede59, #ffdd52, #ffdc4c, #ffdb46, #ffd940, #ffd839);
+  background-image: linear-gradient(to top, #fcf1c3, #fcefb8, #fdedae, #fdeba3, #fde998, #fde790, #fce587, #fce37f, #fbe176, #fade6d, #f9dc64, #f8d95b);
   height: 100vh;
   margin-top: 90px;
 }
-
 .fullHeight{
   height: 100vh;
 }
@@ -70,23 +69,35 @@ h6 {
   box-sizing: border-box;
 }
 
+.text-container{
+  padding: 25% 0;
 
-/*CSS for Gallery
- Position the image container (needed to position the left and right arrows) */
+}
+.android-icon{
+  width: 25px;
+  height: 40px;
+}
+.supportedDevices{
+  background: #3DDC84;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+
+/*CSS for Gallery*/
 .container {
   position: relative;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
-/* Next & previous buttons */
+
 .prev,
 .next {
   cursor: pointer;
@@ -103,27 +114,15 @@ h6 {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
   margin-right: 10px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-image: linear-gradient(to top, #f9e388, #fae280, #fbe177, #fce06f, #fddf66, #fede60, #fede59, #ffdd52, #ffdc4c, #ffdb46, #ffd940, #ffd839);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #ffde59;
-  font-size: 16pt;
-  padding: 8px 12px;
-  position: absolute;
-  font-weight: bold;
-  top: 0;
+  background-image: linear-gradient(to bottom, #fff1b9, #ffefae, #ffeda3, #ffea98, #ffe88d, #ffe686, #ffe57e, #ffe377, #ffe272, #fee16c, #fedf67, #fdde61);
 }
 
 .row:after {
@@ -131,13 +130,12 @@ h6 {
   display: table;
   clear: both;
 }
-/* Six columns side by side */
+
 .column {
   float: left;
   width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
@@ -145,22 +143,15 @@ h6 {
 .demo:hover {
   opacity: 1;
 }
+.mySlides{
+  box-shadow: 0 1rem 3rem rgba(black, .175);
+}
+
 
 /*CSS for Cards*/
 .card-title{
 font-size: 3em;
 }
-.text-container{
-  padding: 25% 0;
 
-}
-.android-icon{
-  width: 25px;
-  height: 40px;
-}
-.supportedDevices{
-  background: #3DDC84;
-  padding: 5px 10px;
-  border-radius: 10px;
-  width: fit-content;
-}
+
+
