@@ -49,17 +49,17 @@ h6 {
   border-color: white;
 }
 .home{
-  background-image: linear-gradient(to top, #fcf1c3, #fcefb8, #fdedae, #fdeba3, #fde998, #fde790, #fce587, #fce37f, #fbe176, #fade6d, #f9dc64, #f8d95b);
-  height: 100vh;
+  background-image: linear-gradient(to top, #fffffd, #fcfbe8, #fbf7d3, #faf2bd, #fbeda7, #fbea9a, #fce68d, #fce37f, #fbe176, #fade6d, #f9dc64, #f8d95b);  max-height: 100vh;
   margin-top: 90px;
 }
 .fullHeight{
   height: 100vh;
 }
 .img{
-  max-width: 100%;
-  width: auto;
-  height: 100vh;
+  background: url(res/home-cp-spec.png);
+  background-size: 40vh 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .fontStyle{
  font-family: "Libre Caslon Text";
@@ -92,6 +92,8 @@ h6 {
 
 .mySlides {
   display: none;
+  max-width:50vw; 
+  max-height:auto;
 }
 
 .cursor {
@@ -145,6 +147,7 @@ h6 {
 }
 .mySlides{
   box-shadow: 0 1rem 3rem rgba(black, .175);
+ 
 }
 
 
@@ -152,6 +155,24 @@ h6 {
 .card-title{
 font-size: 3em;
 }
-
-
-
+.text-container{
+  padding: 25% 0;
+  height: auto;
+}
+.android-icon{
+  width: 25px;
+  height: 40px;
+}
+.supportedDevices{
+  background: #3DDC84;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.slidesContainer{
+  max-width: 100vw;
+  max-height: 100vh;
+}
+.slidesImg{
+  width: 100%;
+}
