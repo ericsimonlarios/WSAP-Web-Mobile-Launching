@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans");
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text');
 body,
 h1,
 h2,
@@ -22,8 +24,8 @@ h6 {
     background-color:#CC9933;
 }
 .img-fluid{
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 150px;
 }
 .navHover::after{
     transition: all ease-in-out .2s;
@@ -37,23 +39,32 @@ h6 {
     width: 100%;
 }
 .navButton{
-  padding: 8px;
-  background: #F00;
-  display: inline-block;
-  background: linear-gradient(to right, #ffde59 0%, #ffde59d8 50%, #ffffff 50%, #ffffff 100%);
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  transition: background-position 0.3s;
-  border: 1px solid black;
-  border-radius: 10px;
-  cursor: pointer;
+  background: black;
+  color:white;
+  border-color: black;
 }
-
 .navButton:hover{
-  background-position:0 0;
-  text-decoration: none;
+  background:white;
+  color: black;
+  border-color: white;
+}
+.home{
+  background-image: linear-gradient(to top, #f9e388, #fae280, #fbe177, #fce06f, #fddf66, #fede60, #fede59, #ffdd52, #ffdc4c, #ffdb46, #ffd940, #ffd839);
+  height: 100vh;
+  margin-top: 90px;
 }
 
+.fullHeight{
+  height: 100vh;
+}
+.img{
+  max-width: 100%;
+  width: auto;
+  height: 100vh;
+}
+.fontStyle{
+ font-family: "Libre Caslon Text";
+}
 
 * {
   box-sizing: border-box;
@@ -136,7 +147,20 @@ h6 {
 }
 
 /*CSS for Cards*/
-
 .card-title{
 font-size: 3em;
+}
+.text-container{
+  padding: 25% 0;
+
+}
+.android-icon{
+  width: 25px;
+  height: 40px;
+}
+.supportedDevices{
+  background: #3DDC84;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: fit-content;
 }
