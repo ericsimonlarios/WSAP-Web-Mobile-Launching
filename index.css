@@ -1,12 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans");
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text');
-body,
-h1,
-h2,
-h3,
-h5,
-h6 {
+body
+{
   font-family: "Ubuntu", sans-serif !important;
 }
 
@@ -21,6 +17,9 @@ h6 {
 .img-fluid{
     height: 65px;
     width: 150px;
+}
+.nav-link{
+  font-size: 19px;
 }
 .navHover::after{
     transition: all ease-in-out .2s;
@@ -51,8 +50,8 @@ h6 {
   height: 100vh;
 }
 .img{
-  background: url(res/home-cp-spec.png);
-  background-size: 40vh 80vh;
+  background: url(res/home_cp_spec-3.png);
+  background-size: auto 80vh;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -160,4 +159,8 @@ font-size: 2em;
 }
 .slidesImg{
   width: 100%;
+}
+.footer-img{
+  max-width: 200px;
+  max-height: 200px;
 }
