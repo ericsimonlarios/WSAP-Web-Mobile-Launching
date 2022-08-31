@@ -143,8 +143,8 @@ font-size: 2em;
   font-family: "Libre Caslon Text";
 }
 .card-img-top{
- max-height: 80%;
- max-width: 50vw;
+ max-height: 200px;
+ max-width: 200px; 
 }
 .text-container{
   padding: 25% 0;
@@ -170,4 +170,19 @@ font-size: 2em;
 .footer-img{
   max-width: 200px;
   max-height: 200px;
+}
+
+.appButton {
+  border-radius: 10px;
+  font-family: "Libre Caslon Text";
+  color: white;
+  font-size: 20px;
+  background: black;
+  padding: 8px 25px 8px 25px;
+  text-decoration: none;
+}
+
+.appButton:hover {
+  background: white;
+  text-decoration: none;
 }
