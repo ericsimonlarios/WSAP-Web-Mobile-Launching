@@ -5,7 +5,6 @@ body,
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: "Ubuntu", sans-serif !important;
@@ -120,7 +119,7 @@ h6 {
 
 .column {
   float: left;
-  width: 15%;
+  width: 16%;
 }
 
 .demo {
@@ -132,7 +131,14 @@ h6 {
 }
 /*CSS for Cards*/
 .card-title{
-font-size: 3em;
+font-size: 2em;
+}
+.card-text, .card-title, .section, .fw-bold{
+  font-family: "Libre Caslon Text";
+}
+.card-img-top{
+ max-height: 80%;
+ max-width: 50vw;
 }
 .text-container{
   padding: 25% 0;
